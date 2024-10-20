@@ -1,0 +1,21 @@
+[debug] [2021-05-17T18:25:12.487Z] ----------------------------------------------------------------------
+[debug] [2021-05-17T18:25:12.489Z] Command:       C:\Program Files (x86)\nodejs\node.exe C:\Users\Fatou\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-05-17T18:25:12.490Z] CLI Version:   9.10.2
+[debug] [2021-05-17T18:25:12.490Z] Platform:      win32
+[debug] [2021-05-17T18:25:12.490Z] Node Version:  v14.15.4
+[debug] [2021-05-17T18:25:12.491Z] Time:          Mon May 17 2021 14:25:12 GMT-0400 (heure avancée de l’Est)
+[debug] [2021-05-17T18:25:12.492Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-05-17T18:25:12.500Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-05-17T18:25:12.500Z] > authorizing via signed-in user (famareme@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Fatou\source\repos\React-ninja\innov-focus\innov-focus-site
+

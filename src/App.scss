@@ -1,0 +1,285 @@
+  $blue-color-primary: #00aeff;
+  #root {
+    height :100vh;
+
+    .App-header {
+      position: absolute;
+      width: 100%;
+      background-color: transparent;
+      z-index: 2; 
+
+      .navbar-nav .nav-link {
+        font-size: 14px;
+        margin-left: auto;
+        color: #fff;
+        padding: 0.5rem 0.7rem;
+        font-family: "Source Sans Pro";
+        text-transform: uppercase;
+      }
+/**********************Navbar ********************************/
+      .navbar-light {
+        .navbar-toggler {
+          border-color: transparent;
+          background-color: #03a9f4;
+          border-radius: 0;
+        
+        &-icon {
+          background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(250,250,205, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+          }
+        }
+
+      &.bg-light {
+        background-color: transparent !important;
+      }
+    }
+  }
+/*******************Home Css***********************/
+  #home {
+   
+    .banner {
+      background: url(./assets/images/banner-1.jpg)no-repeat center fixed;
+      background-size: cover;
+      .layer {
+          background: rgba(0, 0, 0, 0.45);
+          .banner-text-w3pvt {
+            padding: 14vw 0 11vw;
+            box-sizing: border-box;
+            width: 100%;
+            .carousel-inner {
+              padding: 14vw 0 11vw;
+              height: 550px;
+              .carousel-caption {
+                top: -160px;
+
+                h2, h3, h4 {
+                  &.b-w3ltxt {
+                font-size: 3em;
+                color: #fff;
+                text-shadow: 1px 1px 0px #333;
+                font-weight: 600;
+                span {
+                  color: $blue-color-primary;
+                }
+               
+              }
+            }
+            h4.b-w3ltxt {
+              font-size: 2.8em;
+              font-weight: 200;
+              letter-spacing: 3px;
+            }
+            p {
+              color: #ccc;
+              }
+            }
+            .btn-wrapper {
+              .btn-primary {
+                background-color: $blue-color-primary;
+                border-color: $blue-color-primary;
+              }
+              .btn.btn-outline-secondary {
+                border-color: white;
+                color: white;
+            }
+            }
+          }
+        }
+      
+      .banner-form-w3pvt {
+          padding: 12vw 0 0vw;
+          box-sizing: border-box;
+        }
+      }
+    }
+    .card-link {
+      position: absolute;
+      bottom: 1em;
+      right: 2em;
+   }
+   .card-body {
+     padding: 1rem .5rem;
+     .card-text {
+      margin: 0 0 1rem 0;
+     }
+}
+  }
+.content-match {
+  margin: 0;
+  line-height: 2em;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 16px;
+}
+ 
+  /************************************/
+
+    .inner-banner {
+      background: url(./assets/images/banner-2.jpg)no-repeat 0 0;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      -ms-background-size: cover;
+      background-size: cover;
+      min-height: 250px;
+      .inner-layer {
+        background: rgba(0, 0, 0, 0.3);
+        min-height: 250px;
+      }
+    }
+ 
+  #about {
+  .presentation {
+    display: flex;
+
+    ul {
+      font-size: 16px;
+    line-height: 2em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    }
+  }
+}
+  .team {
+    // .column {
+    //   float: left;
+    //   width: 33.3%;
+    //   margin-bottom: 16px;
+    //   padding: 0 8px;
+    // }
+    
+    // @media screen and (max-width: 650px) {
+    //   .column {
+    //     width: 100%;
+    //     display: block;
+    //   }
+    // }
+    
+    // .card {
+    //   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    // }
+    
+    // .container {
+    //   padding: 0 16px;
+    // }
+    
+    // .container::after, .row::after {
+    //   content: "";
+    //   clear: both;
+    //   display: table;
+    // }
+    
+    // .title {
+    //   color: grey;
+    // }
+    
+    // .button {
+    //   border: none;
+    //   outline: 0;
+    //   display: inline-block;
+    //   padding: 8px;
+    //   color: white;
+    //   background-color: #000;
+    //   text-align: center;
+    //   cursor: pointer;
+    //   width: 100%;
+    // }
+    
+    // .button:hover {
+    //   background-color: #555;
+    // }
+
+    .team-content {
+      display: flex;
+      align-content: center;
+      .header {
+        display: flex;
+        flex-direction: column;
+        margin-left: 1em;
+        h3 {
+          color: #004D6E;
+        }
+        .title {
+          color: #54595F
+        }
+      }
+  }
+
+  }
+  /******************************Footer***********************************/
+  h2.heading,h3.heading {
+    font-size: 40px;
+    text-transform: capitalize;
+    color: #343a40;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+  ul.list-w3 {
+    list-style: none;
+
+    span.fa {
+      color: $blue-color-primary;
+    }
+  }
+
+  #contact {
+    h4 {
+      font-size: 22px;
+      color: #333;
+    }
+    .list-social {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      li {
+        margin-right: 3px;
+      }
+      svg {
+      font-size: 38px;
+      }
+      .fa-facebook {
+        color: #3b5998;
+      }
+      .google {
+        color: #dd4b39;
+      }
+      .linkedin {
+        color: #00a0dc;
+      }
+     }
+    }
+
+  .footer .card {
+    border-radius: 0;
+    &.bg-dark {
+      background-color: #161616 !important;
+
+      .card-footer:last-child {
+        border-top: 1px #9e9e9e dashed;
+      }
+
+      .card-body {
+        ul.list-w3 {
+          list-style: none;
+          li {
+            color: #777;
+            font-size: 16px;
+            letter-spacing: .5px;
+          }
+        }
+       
+      }
+    }
+  }
+
+
+  @media(max-width:1080px) {
+   
+  }
+  @media(max-width:991px) {
+    #home.banner .layer {
+      .banner-text-w3pvt {
+      width: 100%;
+    }
+    }
+  }
+}
