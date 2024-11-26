@@ -1,4 +1,7 @@
 import InnerBanner from './InnerBanner'
+import Cherif from '../assets/images/cherif.jpg'
+import Fatou from '../assets/images/fatou.jpg'
+import Guibril from '../assets/images/guibril.jpg'
 const Team = () => {
   return ( 
   <>
@@ -11,7 +14,7 @@ const Team = () => {
 <br/>
 
 <div class="team-content">
-      <img src={require('../assets/images/cherif.jpg').default} alt="cherif" />
+      <img src={Cherif} alt="cherif" />
       <div className="header"><h3>Mr. Cherif Aidara </h3>
         <div class="title">Fondateur et Directeur Général</div> </div>
         </div>
@@ -26,7 +29,7 @@ Mr. Aidara est titulaire d’un doctorat en biologie et biotechnologies et œuvr
    
 
       <div class="team-content">
-      <img src={require('../assets/images/guibril.jpg').default} alt="Guibril" />
+      <img src={Guibril} alt="Guibril" />
       <div className="header">
         <h3>Mr. Guibril Diagne </h3>
         <div class="title">Directeur des opérations logistiques - Comptabilité </div>
@@ -52,7 +55,7 @@ Mr. Aidara est titulaire d’un doctorat en biologie et biotechnologies et œuvr
         <hr/>
 
         <div class="team-content">
-      <img src={require('../assets/images/fatou.jpg').default} alt="Fatou" width={100} height={100}/>
+      <img src={Fatou} alt="Fatou" width={100} height={100}/>
       <div className="header">
         <h3>Mme Fatou M. Seck </h3>
         <div class="title">Directrice Développement des solutions numériques

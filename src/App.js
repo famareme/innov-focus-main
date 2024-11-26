@@ -14,7 +14,7 @@ import Team from './components/Team';
 
 function App() {
   useEffect(() => {
-    document.title = "Innov-Focus"
+    document.title = "DakarBiodiversite";
   }, [])
   return (
     <>
