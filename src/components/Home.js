@@ -1,3 +1,4 @@
+import React from 'react';
 import CardsHome from "./CardsHome"
 import Slider from "./Slider"
 

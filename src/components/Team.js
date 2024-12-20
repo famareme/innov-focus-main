@@ -1,7 +1,9 @@
+import React from 'react';
 import InnerBanner from './InnerBanner'
 import Cherif from '../assets/images/cherif.jpg'
 import Fatou from '../assets/images/fatou.jpg'
 import Guibril from '../assets/images/guibril.jpg'
+import Aissatou from '../assets/images/aissatou.jpg'
 const Team = () => {
   return ( 
   <>
@@ -9,7 +11,7 @@ const Team = () => {
    <InnerBanner />
     <section className="team pt-5">
       <div class="container px-5">
-    <h2>Rencontrez l'équipe</h2>
+    <h2 class='heading mb-sm-2 mb-2'>Rencontrer notre équipe</h2>
 <p>Expérience, innovation et réussite.</p>
 <br/>
 
@@ -42,7 +44,7 @@ Mr. Aidara est titulaire d’un doctorat en biologie et biotechnologies et œuvr
         <hr/>
   
         <div class="team-content">
-          <img src="https://via.placeholder.com/150" width={100} height={100} alt="Aissatou" />
+          <img src={Aissatou} width={100} height={150}  style={{objectFit: 'cover', objectPosition:'top'}}alt="Aissatou" />
           <div className="header">
             <h3>Mme Aissatou Tall </h3>
             <p class="title">Directrice Marketing et Stratégies</p>

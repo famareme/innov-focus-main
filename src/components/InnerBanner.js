@@ -1,3 +1,4 @@
+import React from 'react';
 const InnerBanner = () => {
   return (  
     <section className="inner-banner">

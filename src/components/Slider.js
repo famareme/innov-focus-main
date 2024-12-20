@@ -1,5 +1,6 @@
+import React from 'react';
 import Carousel from 'react-bootstrap/Carousel'
-import Button from 'react-bootstrap/Button'
+import { Link } from 'react-router-dom'
 
 const Slider = () => {
   return ( 
@@ -12,9 +13,11 @@ const Slider = () => {
           <p>Nous accompagnons les structures de recherche (universités, instituts de recherche et centres de développement…) en leur apportant toute 
           notre expertise dans les stratégies de protection et d'optimisation de la valorisation de leur propriété intellectuelle (brevet, droits d'auteurs, marques de commerce…) 
           découlant de leurs travaux de recherche à travers l'octroi de droits de licence d'exploitation à des entreprises tierces ou grâce à la création de spin-offs.</p>
-            <div className="btn-wrapper  mt-md-4">
-              <Button variant="outline-secondary mr-2" size="lg">Lire Plus</Button>
-              <Button variant="primary" size="lg">Commencer</Button>
+            <div className="btn-wrapper mt-md-4">
+              {/* <Button variant="outline-secondary mr-2" size="lg">Lire Plus</Button>
+              <Button variant="primary" size="lg">Commencer</Button> */}
+              <Link to="/services#service-1" class="btn btn-outline-secondary btn-lg me-2" role="button" aria-pressed="true">Commencer</Link>
+              <Link to="/services#service-1" class="btn btn-primary btn-lg" role="button" aria-pressed="true">Lire Plus</Link>
             </div>
         </Carousel.Caption>
       </Carousel.Item>
@@ -26,8 +29,9 @@ const Slider = () => {
             l'application des techniques intelligentes de fertilisation et la gestion regénérative des sols dans un contexte 
             de changement climatique.</p>
             <div className="btn-wrapper  mt-md-4">
-              <Button variant="outline-secondary mr-2" size="lg">Lire Plus</Button>
-              <Button variant="primary" size="lg">Commencer</Button>
+              
+            <Link to="/services#service-1" class="btn btn-outline-secondary btn-lg me-2" role="button" aria-pressed="true">Commencer</Link>
+              <Link to="/services#service-1" class="btn btn-primary btn-lg" role="button" aria-pressed="true">Lire Plus</Link>
             </div>
         </Carousel.Caption>
       </Carousel.Item>
@@ -39,8 +43,9 @@ const Slider = () => {
             en leur offrant un bureau de représentation et autres services connexes pour faciliter leur entrée et leur développement
              dans le marché sénégalais et dans la sous-région.</p>
              <div className="btn-wrapper  mt-md-4">
-              <Button variant="outline-secondary mr-2" size="lg">Lire Plus</Button>
-              <Button variant="primary" size="lg">Commencer</Button>
+             
+             <Link to="/services#service-2" class="btn btn-outline-secondary btn-lg me-2" role="button" aria-pressed="true">Commencer</Link>
+              <Link to="/services#service-2" class="btn btn-primary btn-lg" role="button" aria-pressed="true">Lire Plus</Link>
             </div>
         </Carousel.Caption>
       </Carousel.Item>

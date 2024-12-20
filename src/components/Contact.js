@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 import InnerBanner from "./InnerBanner";
 import ContactContenu from './ContactContenu'
 import Form from 'react-bootstrap/Form';
@@ -78,7 +78,7 @@ const Contact = () => {
 						/>
 					</Form.Group>
 					<Form.Group controlId="email">
-						<Form.Label>Email address</Form.Label>
+						<Form.Label>Adresse Email</Form.Label>
 						<Form.Control 
 						type="email" 
 						name="email"
@@ -123,16 +123,16 @@ const Contact = () => {
 			</div>
 			<div class="col-lg-4 mt-lg-0 mt-5 contact-map">
 				<h4 class="mb-4 w3f_title">Position géographique</h4>
-				<iframe
-					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3859.2029823114995!2d-17.42825388515861!3d14.701110189738491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xec1731b8903885b%3A0xa2841b3a9dfd3e3!2sInstitut%20s%C3%A9n%C3%A9galais%20de%20Recherche%20Agricole!5e0!3m2!1sfr!2sca!4v1577130101801!5m2!1sfr!2sca" 
-					title="InnovFocus"
-					width= "100%"
-					height= "95%"
-					frameBorder="0"
-					style={{ border: 0 }}
-					allowFullScreen=""
-					aria-hidden="false"
-					tabIndex="0"/>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3857.4646938202036!2d-17.19332002489!3d14.799155285711098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xec1a3d6a699161b%3A0xfce2afc4b2952e66!2sBc92%20Cit%C3%A9%20Akys%20Bambilor!5e0!3m2!1sen!2sca!4v1733172344525!5m2!1sen!2sca" 
+				width="100%" 
+				height="95%" 
+				style={{ border: 0 }}
+				title="Bambilor map"
+				allowfullscreen="" 
+				loading="lazy"
+				referrerpolicy="no-referrer-when-downgrade"
+				aria-hidden="false"
+				tabIndex="0"/>
 			</div>
 		</div>
     </section>
