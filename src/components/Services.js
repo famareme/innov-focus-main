@@ -26,7 +26,7 @@ const Services = () => {
 				une importance capitale. Compte tenu de tout ce qui est vient d’être rappelé, il n’est pas étonnant que la valorisation 
 				des résultats de la recherche-innovation occupent une place de plus en plus importante dans les politiques de développement 
 				et   dans   le   secteur   privé,   un   peu   partout   dans   le   monde   et   en   particulier   en   Afrique. 
-                <a href="https://drive.google.com/file/d/1Ss3INPHSSQKkTmArkEToHX1S_Wp5KaUE/view?usp=drive_link" target="_blank" rel="noreferrer">
+                <a href="https://drive.google.com/file/d/1nhXbOjZhnjNiQi1p7XAgmgJzEwv6qAMX/view?usp=sharing" target="_blank" rel="noreferrer">
                   En savoir plus
                 </a>
               </p>
@@ -44,8 +44,8 @@ const Services = () => {
 						intellectuelle, sur la mise en place des conditions optimales de valorisation de ladite PI et sur l’adoption des 
 						technologies au sein des entreprises pour une exploitation tout en maintenant les collaborations avec les structures de 
 						recherche.</ListGroup.Item>
-						<ListGroup.Item as="li"><a href="https://learningsystem.one/login/index.php" target="_blank" rel="noreferrer">MOOC sur la Propriété Intellectuelle </a></ListGroup.Item>
-						<ListGroup.Item as="li"> <a href="https://learningsystem.one/login/index.php" target="_blank" rel="noreferrer">MOOC Transfert de Technologies et Contrôle de la Qualité</a></ListGroup.Item>
+						<ListGroup.Item as="li"><a href="https://learningsystem.one/" target="_blank" rel="noreferrer">MOOC sur la Propriété Intellectuelle </a></ListGroup.Item>
+						<ListGroup.Item as="li"> <a href="https://learningsystem.one/" target="_blank" rel="noreferrer">MOOC Transfert de Technologies et Contrôle de la Qualité</a></ListGroup.Item>
             </ListGroup>
 						</div>
 						<div id='service-2' className='service-2'>

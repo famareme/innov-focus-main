@@ -11,7 +11,7 @@ const ContactContenu = () => {
         <li className="d-flex"><span className="fa mt-1 mr-1"><FaMapMarkerAlt /></span>Siège : Villa BD 01 – CITE AKYS – Bambilor – Rufisque - Dakar - Sénégal</li>
         <li className="my-3"><span className="fa mr-1"><FaPhoneAlt /></span>+221 70 678 02 66 / +221 77 555 95 04</li>
         <li className="my-3"><span className="fa mr-1"><FaPhoneAlt /></span>+1-514-953-3356 (whatsapp) </li>
-        <li className=""><span className="fa mr-1 fa-envelope"><FaEnvelope /></span><a href="mailto:dakarbiodiversite@netcourrier.com">info@innovfocus.com</a></li>
+        <li className=""><span className="fa mr-1 fa-envelope"><FaEnvelope /></span><a href="mailto:dakarbiodiversite@netcourrier.com"> dakarbio@dakarbiodiversite.com</a></li>
       </ul>
       <h4 className="mt-md-5 mt-4 mb-3 w3f_title">Suivez-nous</h4>
       <ul className="list-social">

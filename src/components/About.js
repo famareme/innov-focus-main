@@ -114,14 +114,13 @@ const About = () => {
             <h3 class="mt-sm-3"> Vision </h3>
             <p>Notre vision est de devenir un acteur important dans le secteur de la transformation industrielle   en   Afrique.   
             Notre   domaine   d’intervention   concerne   à   la   fois   l’appui technique et le soutien légal aux 
-            professionnels des secteurs stratégiques de l’ énergie des mines, de l’agriculture, l’agroalimentaire et des produits agro-industriels.</p>
+            professionnels des secteurs stratégiques de l’énergie des mines, de l’agriculture, l’agroalimentaire et des produits agro-industriels.</p>
             <p>Nous   avons   développé   un   large   éventail   d’activités   tels   1)   le   renforcement   des capacités   des   
             professionnels   des   secteurs   sus-mentionnés   (innovateurs, entrepreneurs…) à travers la formation sur les conditions 
             optimales de valorisation des   innovations   pour   leur   intégration   dans   les   entreprises   africaines   grâce   à   
             une adoption,   implantation   et   généralisation ;   2)   le   transfert   de   technologies   dans   le secteur de l’agroalimentaire 
             avec l’adoption par les producteurs de volailles et de bétail d’une formule de zéolite pour l’amélioration de la santé et la croissance 
-            des animaux ;   et   3)   le   développement   de   formules   de   bio   fertilisants   destinés   à l’agriculture dans le cadre du 
-            consortium formé.</p>
+            des animaux ;   et   3)   le   développement   de   formules   de   bio   fertilisants   destinés   à l’agriculture.</p>
             <h3 class="mt-sm-3">Nos valeurs </h3> 
             <p>Nos  valeurs   nous unissent et   sont  le secret   de  liens forts au sein de notre  équipe. Elles  orientent  
             nos actions, nos  choix et  nos solutions  devant tous  les défis. Chez Dakarbiodiversité, les leaders à qui nous 

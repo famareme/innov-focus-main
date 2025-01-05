@@ -2,13 +2,12 @@ import React from 'react';
 import InnerBanner from "./InnerBanner";
 import IntellectualProperty from '../assets/images/Intellectual-property.jpg';
 import propreteIntellectual from '../assets/docs/Descriptif-valorisation-propriete-intellectuelle-simplifiee.pdf';
-// import agriculture from '../assets/images/agriculture.jpg';
 import zeosen from '../assets/docs/Brochure-zeolite-2-pour-la-volaille.pdf';
-import volaille from '../assets/images/volaille.jpg';
-import zeolite1 from '../assets/docs/Dossier+Bovin+avec+les+droits+reserves[1].pdf';
-import volaille1 from '../assets/images/image-5.jpg';
-import zeosen1 from '../assets/docs/Effect-of-long-term-dietary-supplementation-with-clinoptiloliteon-the-poultry.pdf';
-import agriculture1 from '../assets/images/image-6.jpg';
+import volaille from '../assets/images/zeolite-poussins.jpg';
+import BoviZeoSen from '../assets/docs/BoviZeoSen.pdf';
+import volaille1 from '../assets/images/elevagepoulets-zeolite.jpg';
+import AviZeoSen from '../assets/docs/AviZeoSen.pdf';
+import agriculture1 from '../assets/images/bovin-zeolite.jpg';
 import Publication1 from '../assets/images/publication1.JPG';
 import Publication2 from '../assets/images/publication2.JPG';
 import Publication3 from '../assets/images/publication3.JPG';
@@ -25,24 +24,24 @@ const blogs = [
     image: IntellectualProperty,
   },
   {
-    title: 'ZEOSEN™ : Complément alimentaire pour l’aviculture.',
+    title: 'ZeoSen™ : Complément alimentaire pour l’aviculture.',
     description:
       'Apports minéraux garantis à 100 %. Zeosen™ est une poudre d’argile riche en minéraux essentiels...',
     link: zeosen,
     image: volaille,
   },
   {
-    title: 'Résumé des recherches scientifiques sur l’utilisation de la Zéolite',
+    title: 'BoviZeoSen™',
     description:
-      'Un certain nombre d’éléments inorganiques sont essentiels à la croissance et à la reproduction chez les animaux...',
-    link: zeolite1,
+      'Un supplément minéral pour les bovins qui joue un rôle déterminant dans le métabolisme énergétique et dans la dégradation des acides gras complexes au niveau du foie',
+    link: BoviZeoSen,
     image: agriculture1,
   },
   {
-    title: 'Effects of long-term dietary supplementation with clinoptilolite',
+    title: 'AviZeoSen™',
     description:
-      'Zeolites are crystalline, hydrated aluminosilicates of alkali and alkaline earth cations which possess three-dimensional crystal structures...',
-    link: zeosen1,
+      'Un supplément minéral pour la volaille souffrant d\'un débalancement minéral ou d’une déficience en calcium.',
+    link: AviZeoSen,
     image: volaille1,
   },
 ];

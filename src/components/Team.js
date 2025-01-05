@@ -4,6 +4,7 @@ import Cherif from '../assets/images/cherif.jpg'
 import Fatou from '../assets/images/fatou.jpg'
 import Guibril from '../assets/images/guibril.jpg'
 import Aissatou from '../assets/images/aissatou.jpg'
+import Kandji from '../assets/images/kandji.jpg'
 const Team = () => {
   return ( 
   <>
@@ -70,7 +71,7 @@ Mr. Aidara est titulaire d’un doctorat en biologie et biotechnologies et œuvr
         <hr/>
 
         <div class="team-content">
-      <img src="https://via.placeholder.com/150" width={100} height={100} alt="Guibril" />
+      <img src={Kandji} width={100} height={100} alt="Guibril" />
       <div className="header">
         <h3>Mr. Serigne T. Kandji </h3>
         <div class="title">Responsable R&D – Appui conseil agronomique
